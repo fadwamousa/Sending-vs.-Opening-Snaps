@@ -9,6 +9,8 @@ Notes:
         time sending / (time sending + time opening)
         time opening / (time sending + time opening)
     To avoid integer division in percentages, multiply by 100.0 and not 100.
+    
+    activities tables : 
 |activity_id |user_id	       |activity_type|time_spent|	activity_date|
 |------------|---------------|--------------|----------|--------------------|
 |7274|	123|	open |  4.50	|06/22/2022 12:00:00
@@ -16,3 +18,12 @@ Notes:
 |1413|	456|	send |  5.67	|06/23/2022 12:00:00
 |1414|	789|	chat |	11.00	|06/25/2022 12:00:00
 |2536|	456|	open |	3.00	|06/25/2022 12:00:00
+
+
+
+age_breakdown table :
+|user_id	|age_bucket
+|------------|---------------|
+|123 |	31-35
+|456 |  26-30
+|789 |	21-25
