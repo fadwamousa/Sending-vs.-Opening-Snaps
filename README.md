@@ -9,9 +9,8 @@ Notes:
         time sending / (time sending + time opening)
         time opening / (time sending + time opening)
     To avoid integer division in percentages, multiply by 100.0 and not 100.
-
-|------------|---------------|--------------|----------|--------------------|
 |activity_id |user_id	       |activity_type|time_spent|	activity_date|
+|------------|---------------|--------------|----------|--------------------|
 |7274|	123|	open |  4.50	|06/22/2022 12:00:00
 |2425|	123|	send |  3.50	|06/22/2022 12:00:00
 |1413|	456|	send |  5.67	|06/23/2022 12:00:00
